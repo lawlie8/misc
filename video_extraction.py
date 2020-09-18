@@ -2,7 +2,7 @@ import cv2
 import argparse
 import os
 parser = argparse.ArgumentParser()
-parser.add_argument('-v','--vid',help='add video file to extract')
+parser.add_argument('-v','--vid',help='add video file to extract, absolute path only')
 parser.add_argument('-od','--out_dir',help='target dir',action='store_true',default='')
 parser.add_argument('-id','--in_dir',help='input dir')
 parser.add_argument('-ex','--ex',help='extract frames',action='store_true')
